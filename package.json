@@ -1,6 +1,6 @@
 {
   "name": "react-chartjs-components",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Simple react components for ChartJs 2+ library.",
   "main": "lib/index.js",
   "author": "Ionut Milica <ionut.milica@gmail.com>",
@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@kadira/storybook": "^2.28.1",
-    "@kadira/storybook-deployer" : "^1.2.0",
+    "@kadira/storybook-deployer": "^1.2.0",
     "babel": "^6.5.2",
     "babel-core": "^6.18.0",
     "babel-eslint": "6.1.2",
@@ -51,7 +51,10 @@
     "webpack-dev-server": "^1.16.2"
   },
   "keywords": [
-    "react", "chartjs", "react-chartjs", "components"
+    "react",
+    "chartjs",
+    "react-chartjs",
+    "components"
   ],
   "peerDependencies": {
     "react": "^15.3.2",

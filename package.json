@@ -1,6 +1,6 @@
 {
-  "name": "react-chart-js",
-  "version": "0.1.0",
+  "name": "react-chartjs-components",
+  "version": "0.2.0",
   "description": "Simple react components for ChartJs 2+ library.",
   "main": "lib/index.js",
   "author": "Ionut Milica <ionut.milica@gmail.com>",
@@ -50,6 +50,9 @@
     "webpack": "^1.13.3",
     "webpack-dev-server": "^1.16.2"
   },
+  "keywords": [
+    "react", "chartjs", "react-chartjs", "components"
+  ],
   "peerDependencies": {
     "react": "^15.3.2",
     "react-dom": "^15.3.2"

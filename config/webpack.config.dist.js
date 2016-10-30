@@ -55,7 +55,7 @@ module.exports = {
 
   output: {
     path: paths.appDist,
-    filename: 'react-chartjs.min.js',
+    filename: 'react-chartjs-components.min.js',
     libraryTarget: 'umd',
     library: 'react-chartjs-components',
   },

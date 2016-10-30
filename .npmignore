@@ -1,0 +1,7 @@
+examples
+.idea
+node_modules
+*.log
+config
+scripts
+public

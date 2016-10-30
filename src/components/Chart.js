@@ -73,7 +73,7 @@ class Chart extends React.Component {
     }
 
     this.chart.options = ChartJS.helpers.configMerge(this.chart.options, options);
-    this.chart.data = {
+    this.chart.config.data = {
       ...this.chart.config.data,
       ...data,
     };

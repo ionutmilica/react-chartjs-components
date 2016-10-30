@@ -6,6 +6,8 @@ const propTypes = {
   redraw: React.PropTypes.bool,
   data: React.PropTypes.object.isRequired,
   options: React.PropTypes.object,
+  width: React.PropTypes.number,
+  height: React.PropTypes.number,
 };
 
 class PieChart extends React.Component {

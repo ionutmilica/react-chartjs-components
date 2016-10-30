@@ -7,6 +7,8 @@ const propTypes = {
   redraw: React.PropTypes.bool,
   type: React.PropTypes.oneOf(['pie', 'doughnut', 'line', 'bar']),
   data: React.PropTypes.object.isRequired,
+  width: React.PropTypes.number,
+  height: React.PropTypes.number,
   options: React.PropTypes.object,
 };
 

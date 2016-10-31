@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
 import ChartJS from 'chart.js';
+import isEqual from 'lodash.isequal';
 
 const propTypes = {
   className: React.PropTypes.string,
@@ -33,9 +34,7 @@ class Chart extends React.Component {
   }
 
   shouldComponentUpdate(nextProps) {
-    // Only new instances of data or config will trigger an update
-    // Users should use Object.assign or alternatives
-    return nextProps.data !== this.props.data || nextProps.options !== this.props.options;
+    return !isEqual(nextProps.data, this.props.data) || !isEqual(nextProps.options, this.props.options);
   }
 
   componentDidUpdate() {

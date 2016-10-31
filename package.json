@@ -1,6 +1,6 @@
 {
   "name": "react-chartjs-components",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "description": "Simple react components for ChartJs 2+ library.",
   "main": "lib/index.js",
   "author": "Ionut Milica <ionut.milica@gmail.com>",

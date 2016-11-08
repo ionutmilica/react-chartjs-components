@@ -57,10 +57,14 @@ class Chart extends React.Component {
     const { data, type, options } = this.props;
     const node = ReactDOM.findDOMNode(this);
 
+    if (this.chart) {
+	  	this.chart.destroy();
+    }
+
     this.chart = new ChartJS(node, {
-        type,
-        data,
-        options
+      type,
+      data,
+      options
     });
   }
 
